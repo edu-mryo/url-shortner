@@ -1,15 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import axios from 'axios'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  // const copyToClipboard = () =>{
+  //   navigator.clipboard.writeText(shortenedUrl)
+  // }
 
   return (
     <>
-      <h1>Vite + React</h1>
       <div className="card">
+        <div className="card-header">
+          <h1>URL Shortener</h1>
+        {/* </div>
+        <div className="card-body">
+          <div className="form-group">
+            <input type="text" className="form-control" placeholder="Enter URL" value={originalUrl} onChange={(e) => setOriginalUrl(e.target.value)} />
+          </div>
+          <button className="btn btn-primary" onClick={shortenUrl}>Shorten</button>
+        </div>
+        <div className="card-footer"> */}
+          {/* <p>{shortenedUrl}</p> */}
+        </div>
 
       </div>
 
